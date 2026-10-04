@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/bin/gdlint", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/gdtoolkit/linter/__main__.py", line 56, in main
+    config = _load_config_file_or_default(config_file_path)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/gdtoolkit/linter/__main__.py", line 109, in _load_config_file_or_default
+    return yaml.load(handle.read(), Loader=yaml.Loader)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/yaml/composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/yaml/parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+    ...<2 lines>...
+            self.peek_token().start_mark)
+yaml.parser.ParserError: expected '<document start>', but found '<scalar>'
+  in "<unicode string>", line 2, column 1:
+    excluded_directories=addons,buil ... 
+    ^

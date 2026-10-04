@@ -1,0 +1,7 @@
+[MAIN]
+excluded_directories=addons,build,.godot,.import,tests,tools
+disable=class-definitions-order,max-line-length,max-file-lines,max-returns,max-public-methods
+max-line-length=150
+max-file-lines=2000
+max-public-methods=40
+max-returns=15

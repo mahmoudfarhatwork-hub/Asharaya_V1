@@ -1,0 +1,92 @@
+
+═══════════════════════════════════════════════════════════
+  📊 تقرير مشروع Asharaya — 2026-10-04 23:32
+═══════════════════════════════════════════════════════════
+
+📁 [1] معلومات عامة
+─────────────────────────────────────────────────────────
+المسار: /data/data/com.termux/files/home/storage/downloads/Asharaya_Final_dev4_verified
+الحجم: 108M
+عدد الملفات: 3606
+
+🎮 [2] ملفات Godot
+─────────────────────────────────────────────────────────
+ملفات .gd:     69
+ملفات .tscn:   4
+ملفات .tres:   0
+
+📝 [3] أسطر الكود
+─────────────────────────────────────────────────────────
+إجمالي .gd (بدون addons): 10209 سطر
+ملفات scripts/:            9533 سطر
+
+🎨 [4] الأصول
+─────────────────────────────────────────────────────────
+حجم assets:      66M
+موديلات:         50
+تكسترات:         146
+أصوات:           519
+
+💻 [5] أكبر 10 ملفات كود
+─────────────────────────────────────────────────────────
+1685 ./godot_project_FINAL/scripts/npc/NPCBrain.gd
+1012 ./godot_project_FINAL/scripts/npc/NPCLexicon.gd
+508 ./godot_project_FINAL/scripts/npc/NPCGrammar.gd
+471 ./godot_project_FINAL/scripts/NetworkManager.gd
+443 ./godot_project_FINAL/scripts/npc/SpeechAnalyzer.gd
+307 ./godot_project_FINAL/scripts/NPCDialogueBridge.gd
+280 ./godot_project_FINAL/scripts/TownBuilder.gd
+279 ./godot_project_FINAL/tools/MasterSetup.gd
+269 ./godot_project_FINAL/scripts/WorldGenerator_Optimized.gd
+258 ./godot_project_FINAL/scripts/ChunkStreamer.gd
+
+📌 [6] Git
+─────────────────────────────────────────────────────────
+مفيش Git
+
+🔍 [7] أخطاء gdlint (الأصلي)
+─────────────────────────────────────────────────────────
+عدد الأسطر: 929
+    485 (class-definitions-order)
+    339 (max-line-length)
+     54 (trailing-whitespace)
+     54 (s)
+     10 (unused-argument)
+      7 (no-elif-return)
+      4 (max-file-lines)
+      3 (max-returns)
+      3 (max-public-methods)
+      3 (functions)
+      3 (enum-element-name)
+      2 (no-else-return)
+      2 (enum-name)
+      2 (constant-name)
+      1 (unnecessary-pass)
+      1 (function-variable-name)
+      1 (expression-not-assigned)
+
+🔍 [8] أخطاء gdlint (بعد .gdlintrc)
+─────────────────────────────────────────────────────────
+عدد الأسطر: 28
+
+📂 [9] هيكل المشروع
+─────────────────────────────────────────────────────────
+asset_pipeline_3d/
+gdtoolkit/
+godot_project_FINAL/
+
+🎬 [10] مشاهد Godot
+─────────────────────────────────────────────────────────
+./godot_project_FINAL/scenes/Main.tscn
+./godot_project_FINAL/scenes/StarterTown.tscn
+./godot_project_FINAL/tests/load_all.tscn
+./godot_project_FINAL/tests/sim_gameplay.tscn
+
+📄 [11] ملفات التوثيق
+─────────────────────────────────────────────────────────
+./README.md
+./CHANGELOG.md
+
+═══════════════════════════════════════════════════════════
+  ✅ التقرير انتهى
+═══════════════════════════════════════════════════════════
